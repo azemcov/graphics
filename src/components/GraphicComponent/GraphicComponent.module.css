@@ -1,0 +1,12 @@
+.graphicArea {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.component {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 255px;
+}

@@ -1,5 +1,37 @@
-.StripedBar_text {
+.text {
   color: #898290;
   font-size: 14px;
   font-weight: 700;
+  padding: 1.5px 5px;
+}
+.column {
+  height: 115px;
+  width: 80px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    -45deg,
+    #4ab6e8,
+    #4ab6e8 10px,
+    white 10px,
+    white 18px
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBackground {
+  display: inline-block;
+  position: relative;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

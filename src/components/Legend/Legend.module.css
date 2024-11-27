@@ -1,0 +1,26 @@
+.box {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.client {
+  background-color: #4ab6e8;
+}
+.server {
+  background-color: #aa6fac;
+}
+.database {
+  background-color: #e85498;
+}
+.element {
+  display: flex;
+  gap: 10px;
+}
+.elements {
+  display: flex;
+  justify-content: space-evenly;
+}
