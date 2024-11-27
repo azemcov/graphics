@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: #b97d45;
+}
+a {
+  color: #898290;
+  font-size: 10px;
+}
+h1 {
+  color: #898290;
+  font-size: 16px;
+}
+h2 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+h3 {
+  color: #898290;
+  font-size: 14px;
+  font-weight: 700;
+}
