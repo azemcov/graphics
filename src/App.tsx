@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import GraphicComponent from '@components/GraphicComponent/GraphicComponent';
-import StripedBar from '@components/StripedBar/StripedBar';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
       <GraphicComponent />
-      <StripedBar />
     </>
   );
 }

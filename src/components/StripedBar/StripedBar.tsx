@@ -1,11 +1,10 @@
-export default function StripedBar() {
+import classes from '@components/StripedBar/StripedBar.module.css';
+
+export default function StripedBar({ value }: { value: number }) {
   return (
     <>
       <div>
-        <p>StripedBar</p>
-        <h1>StripedBar</h1>
-        <h2>StripedBar</h2>
-        <h3>StripedBar</h3>
+        <p className={classes.StripedBar_text}>text</p>
       </div>
     </>
   );
