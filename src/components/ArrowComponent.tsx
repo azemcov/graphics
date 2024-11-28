@@ -47,15 +47,15 @@ export default function ArrowComponent({
         <line
           x1='197.5'
           y1='0'
-          x2='302.5'
+          x2='312.5'
           y2='0'
           stroke='#898290'
           strokeWidth='2px'
         />
         <line
-          x1='302.5'
+          x1='312.5'
           y1='0'
-          x2='302.5'
+          x2='312.5'
           y2={368 - column3 - 35}
           stroke='#898290'
           strokeWidth='1px'
@@ -80,7 +80,7 @@ export default function ArrowComponent({
           position: 'absolute',
           transform: 'translate(50%, -100%)',
           top: `${255 - column3 - 10}px`,
-          right: `197.5px`,
+          right: `187.5px`,
           height: '4px',
           width: '7px',
         }}
