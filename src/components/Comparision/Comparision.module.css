@@ -1,0 +1,70 @@
+.red {
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  transform: translate(50%, 0);
+  background-color: #fc440f;
+  height: 24px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  -webkit-transform: translate(50%, 0);
+  -moz-transform: translate(50%, 0);
+  -ms-transform: translate(50%, 0);
+  -o-transform: translate(50%, 0);
+}
+.redArrow {
+  height: 10px;
+}
+.greenArrow {
+  rotate: 180deg;
+  height: 10px;
+}
+.green {
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  transform: translate(50%, 0);
+  background-color: #00cc99;
+  height: 24px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.gray {
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  transform: translate(50%, 0);
+  background-color: #898290;
+  height: 24px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
