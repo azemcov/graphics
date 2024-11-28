@@ -40,6 +40,15 @@ function App() {
       {!addressNumber && !loaded && (
         <ButtonsArea setAddressNumber={setAddressNumber} />
       )}
+      {loaded && (
+        <button
+          style={{ position: 'absolute', left: '10px' }}
+          type='button'
+          className='btn btn-secondary'
+          onClick={() => location.reload()}>
+          back
+        </button>
+      )}
     </>
   );
 }
