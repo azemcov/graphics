@@ -53,9 +53,9 @@ export default function GraphicComponent({ state }: { state: GraphicState }) {
             value1={state.dev.front}
             value2={state.dev.back}
             value3={state.dev.db}
-            height1={noData ? 14 : state.dev.front * k}
-            height2={noData ? 14 : state.dev.back * k}
-            height3={noData ? 14 : state.dev.db * k}
+            height1={noData ? 255 / 3 : state.dev.front * k}
+            height2={noData ? 255 / 3 : state.dev.back * k}
+            height3={noData ? 255 / 3 : state.dev.db * k}
             name='dev'
           />
           {!noData && (
@@ -69,23 +69,23 @@ export default function GraphicComponent({ state }: { state: GraphicState }) {
             value1={state.test.front}
             value2={state.test.back}
             value3={state.test.db}
-            height1={noData ? 14 : state.test.front * k}
-            height2={noData ? 14 : state.test.back * k}
-            height3={noData ? 14 : state.test.db * k}
+            height1={noData ? 255 / 3 : state.test.front * k}
+            height2={noData ? 255 / 3 : state.test.back * k}
+            height3={noData ? 255 / 3 : state.test.db * k}
             name='test'
           />
           <TricolorBar
             value1={state.prod.front}
             value2={state.prod.back}
             value3={state.prod.db}
-            height1={noData ? 14 : state.prod.front * k}
-            height2={noData ? 14 : state.prod.back * k}
-            height3={noData ? 14 : state.prod.db * k}
+            height1={noData ? 255 / 3 : state.prod.front * k}
+            height2={noData ? 255 / 3 : state.prod.back * k}
+            height3={noData ? 255 / 3 : state.prod.db * k}
             name='prod'
           />
           <StripedBar
             value={state.norm}
-            height={noData ? 14 * 3 : state.norm * k}
+            height={noData ? 255 : state.norm * k}
             name='норматив'
           />
           {!noData && (
